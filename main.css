@@ -1,0 +1,8 @@
+.news{
+    border: 1px solid red;
+   min-height: 100px;
+}
+.news div{
+    border: 1px solid red;
+    min-height: inherit;
+}

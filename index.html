@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="fa/css/all.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
@@ -10,12 +10,82 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="container-fluid">
 
         <!--Logo and sign in-->
-        <div class="row">
-            <div class="col-md-6"></div>
-            <div class="col-md-6"></div>
+        <div class="row my-2 ">
+            <div class="col-md-6">
+                <a class="navbar-brand" href="#">youngTech</a>
+            </div>
+            <div class="col-md-6 text-end">
+                 <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sign up
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Craete your account</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                           <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="firstName">
+                                <label for="floatingInput">First Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="lastName">
+                                <label for="floatingPassword">Last Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign up</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+               <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Login
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Sign into your account</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                           <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Login</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--Navbar-->
@@ -59,25 +129,28 @@
                         <button type="button" data-bs-target="#techNews" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active item">
+                        <div class="carousel-item active item text-left">
                         <img src="images/gaming2.jpg" class="d-block w-100" alt="man playing a game">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h1 class="text-start">What is the future of gaming</h1>
+                            <p class="text-start">The gaming industry is evolving at a rapid pace, with advancements in technology pushing the boundaries of what is possible. From virtual reality to cloud gaming, the future holds endless possibilities ....</p>
+                            <p class="text-start"><a class="btn btn-lg btn-primary" href="#" role="button">Continue reading...</a></p>
                         </div>
                         </div>
                         <div class="carousel-item item">
-                        <img src="images/samrtwatch.jpg" class="d-block w-100" alt="samsung and iphone">
+                        <img src="images/Samsung2.jpg" class="d-block w-100" alt="samsung and iphone">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h1 class="text-start">Phone of the decade. iphone or Samsung</h1>
+                            <p class="text-start">The battle for the title of "Phone of the Decade" has been fiercely contested between two tech giants: Apple and Samsung. Each brand has pushed the envelope in terms of design, functionality, and innovation. The iPhone,....</p>
+                            <p class="text-start"><a class="btn btn-lg btn-primary" href="#" role="button">Continue reading...</a></p>
                         </div>
                         </div>
                         <div class="carousel-item item">
-                        <img src="images/Samsung2.jpg" class="d-block w-100" alt="lady with smart watch">
+                        <img src="images/samrtwatch.jpg" class="d-block w-100" alt="lady with smart watch">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h1 class="text-start">Hidden features of your smart watch</h1>
+                            <p class="text-start">Smartwatches have become an essential accessory, providing much more than just the time. While many users are familiar with their basic functionalities, there are numerous hidden features that can enhance your daily life. From ..</p>
+                            <p class="text-start"><a class="btn btn-lg btn-primary" href="#" role="button">Continue reading...</a></p>
                         </div>
                         </div>
                     </div>
@@ -151,25 +224,57 @@
                 </div>
                 </div>
             </div>
-    </div>
+       </div>
 
         <!--Subscribe to newsletter-->
-        <div class="row">
-            <div class="col-md-6"></div>
-            <div class="col-md-6"></div>
+        <div class="row mt-5 bg-dark text-light align-items-center">
+            <div class="col-md-6">
+                <p>Get our latest tech reviews sent to you by subscribing to our news letter</p>
+            </div>
+            <div class="col-md-6 mt-5">
+                <form action="get">
+                    <input type="email" class="form-control" placeholder="Enter Email"><br>
+                    <button class="btn btn-outline-light">Subscribe</button>
+                </form>
+                
+            </div>
         </div>
 
         <!--Newsheading-->
-        <div class="row">
-            <div class="col-12"></div>
+        <div class="col">
+            <div class="row">
+                <h2>Latest News</h2>
+            </div>
+        </div>
+        <!--news-->
+       <div class="row my-4 news justify-content-around">
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col">Hi</div>
+                </div>
+                <div class="row">
+                    <div class="col">Hi</div>
+                </div>
+                <div class="row">
+                    <div class="col">Hi</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col">Hello</div>
+                </div>
+                <div class="row">
+                    <div class="col">hello</div>
+                </div>
+                <div class="row">
+                    <div class="col">Hello</div>
+                </div>
+                <div class="row">
+                    <div class="col">Hello</div>
+                </div>
+            </div>
         </div>
 
-        <!--news-->
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-        </div>
 
         <!--Footer-->
         <div class="row">
