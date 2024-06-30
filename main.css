@@ -29,3 +29,10 @@ ul li a{
     text-decoration: none;
     color:white;
 }
+.hover-expand {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.hover-expand:hover {
+    transform: scale(1.01); /* Slightly larger scale on hover */
+}

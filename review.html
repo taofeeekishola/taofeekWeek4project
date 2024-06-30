@@ -13,18 +13,18 @@
     <div class="container-fluid">
 
          <!--Logo and sign in-->
-        <div class="row my-2 ">
+          <div class="row my-2 ">
             <div class="col-md-6">
-                <a class="navbar-brand" href="#">youngTech</a>
+                <a class="navbar-brand fs-1" href="#" id="company">youngTech</a>
             </div>
-            <div class="col-md-6 text-end">
+            <div class="col-md-6 text-end mt-3">
                  <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary rounded rounded-pill" data-bs-toggle="modal" data-bs-target="#signin">
                 Sign up
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="signin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
@@ -50,19 +50,19 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign up</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Sign up</button>
                         </div>
                         </div>
                     </div>
                 </div>
 
                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-primary rounded-pill " data-bs-toggle="modal" data-bs-target="#login">
                 Login
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
@@ -80,7 +80,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Login</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Login</button>
                         </div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                 <div class="row">
                     <div class="col">
                         <h1>Google Pixel 7 Pro: The Ultimate Android Experience</h1>
-                       <p>JOHN DOE &nbsp;&nbsp; JUL 1  <a href="#" ><i class="fa-regular fa-comment text-center"></i></a></p>
+                       <p>JOHN DOE &nbsp;&nbsp; JUL 1  &nbsp;&nbsp; 5 mins read  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#comment" ><i class="fa-regular fa-comment text-center"></i></a></p>
                         <figure class="figure">
                             <img src="images/pixel.webp" class="figure-img img-fluid rounded" alt="plaeholder image">
                             <figcaption class="figure-caption">Picture taken by Uzumaki Naruto</figcaption>
@@ -161,9 +161,17 @@
                         <h3>Performance</h3>
                         <p>Equipped with the latest Tensor G2 chip and paired with 8GB of RAM, the Pixel 7 Pro delivers exceptional performance across the board. Whether navigating through multiple apps, playing graphics-intensive games, or editing photos and videos, the phone handles tasks effortlessly. 
                             Google’s optimized Android 13 operating system enhances efficiency and responsiveness, ensuring a seamless user experience without unnecessary bloatware.</p>
+                        <div class="row">
+                            <div class="col">
+                                <figure class="figure">
+                                    <img src="images/pixel7.webp" alt="pixel7 perfromamce" class="img-fluid rounded hover-expand">
+                                    <figcaption class="figure-caption">Picture taken by All for one</figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-3">
                     <div class="col">
                         <h3>Battery life</h3>
                         <p>The Pixel 7 Pro excels in battery longevity, featuring a robust 5000mAh battery that supports all-day use on a single charge. Adaptive Battery technology intelligently manages power consumption, prioritizing essential tasks to extend battery life further. 
@@ -209,63 +217,64 @@
                 </div>
             </div>
             <div class="col-md-4">
-               <div class="row mb-2">
+               <div class="row mb-2 mt-5">
                     <div class="col-6 ">
                         <a href="#"><img src="images/microsoft.jpg" alt="" class="img-fluid custom-img"></a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 newscontent">
                         <h5><a href="#">Microsoft Discontinues Internet Explorer After 25 Years</a></h5>
-                        <p>Name</p>
+                        <p class="card-text"><small class="text-body-secondary">YUJI ITADORI &nbsp;&nbsp; JUN 28</small></p>
                     </div>
                 </div>
                 <div class="row mb-2">
                     <div class="col-6">
                         <a href="#"><img src="images/fitbit.jpg" alt="" class="img-fluid custom-img"></a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 newscontent">
                         <h5><a href="#">Fitbit Acquired by Google to Enhance Health Tracking Capabilities</a></h5>
-                        <p>Name</p>
+                        <p class="card-text"><small class="text-body-secondary">JOHN DOE &nbsp;&nbsp; JUN 29</small></p>
                     </div>
                 </div>
                 <div class="row mb-2">
                     <div class="col-6">
                         <a href="#"><img src="images/amazon.jpg" alt="" class="img-fluid custom-img"></a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 newscontent">
                         <h5><a href="#">Amazon Introduces Echo Frames: Smart Glasses with Alexa</a></h5>
-                        <p>Name</p>
+                        <p class="card-text"><small class="text-body-secondary">ESTHER JOHN &nbsp;&nbsp; JUN 12</small></p>
                     </div>
                 </div>
                 <div class="row ">
                     <div class="col-6 ">
                         <a href="#"><img src="images/fold.jpg" alt="" class="img-fluid custom-img"></a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 newscontent">
                         <h5><a href="#">Samsung Launches Galaxy Fold 2 with Improved Durability</a></h5>
-                        <p>Name</p>
+                        <p class="card-text"><small class="text-body-secondary">SUNG WO &nbsp;&nbsp; JUL 1</small></p>
                     </div>
                 </div>
             </div>
         </div>
         
         <!--Related products heading-->
-        <div class="row">
-            <div class="col">
-                <h1>Related Products</h1>
+        <div class="row text-center mt-5">
+            <div class="col mt-5">
+                <h1 class="mt-3">Related Products</h1>
             </div>
         </div>
 
 
         <!--Related Products-->
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3 ">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3 mx-3 ">
             <div class="col">
-                <div class="card">
-                <a href="#"><img src="images/s22.webp" class="card-img-top img-fluid" alt="Image 1"></a> 
+                <div class="card reviews">
+                <a href="#"><img src="images/s222.jpg" class="card-img-top" alt="Image 1"></a> 
                 <div class="card-body">
                     <h5 class="card-title"><a href="#">Samsung Galaxy S22 Ultra Review: A Worthy Contender in 2024</a></h5>
-                    <p class="card-text"><a href="">The Samsung Galaxy S22 Ultra stands out with its powerful Exynos 2200 processor, 
-                        vibrant 6.8-inch Dynamic AMOLED display, and...</a> </p>
-                    <p>JOHN DOE &nbsp;&nbsp; JUL 1</p>
+                    <p class="card-text"><a href="">The Samsung Galaxy S22 Ultra stands out with its powerful Exynos 2200 processor, vibrant 6.8-inch Dynamic AMOLED display, 
+                        and versatile  ...</a> </p>
+                    <p></p>
+                     <p class="card-text"><small class="text-body-secondary">UCHIA SASUKE &nbsp;&nbsp; MAY 5</small></p>
                   
                     </a>
                 </div>
@@ -273,48 +282,46 @@
             </div>
             <div class="col">
                 <div class="card">
-                <a href="#"><img src="images/Oneplus.webp" class="card-img-top img-fluid" alt="Image 2"></a> 
-                <div class="card-body">
+                <a href="#"><img src="images/onr.jpg" class="card-img-top" alt="Image 2"></a> 
+                <div class="card-body reviews">
                     <h5 class="card-title"> <a href="#">OnePlus 10 Pro Review: Speed, Style, and Substance</a> </h5>
-                    <p class="card-text"><a href="#">The OnePlus 10 Pro impresses with its Snapdragon 8 Gen 2 chipset, 
-                        Fluid AMOLED 6.7-inch display with a 120Hz refresh rate, and advanced triple-camera setup. Known for...</a>  </p>
-                    <span>JOHN SMITH  &nbsp;&nbsp; JUL 1</span>
+                    <p class="card-text"><a href="#">The OnePlus 10 Pro impresses with its Snapdragon 8 Gen 2 chipset, Fluid AMOLED 6.7-inch display ,...</a>  </p>
+                    <p class="card-text"><small class="text-body-secondary">SON GOKU  &nbsp;&nbsp; JUL 1</small></p>
                 </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                <a href="#"><img src="images/iphone14.webp" class="card-img-top img-fluid" alt="Image 3"></a> 
-                <div class="card-body">
+                <a href="#"><img src="images/phone14.jpg" class="card-img-top" alt="Image 3"></a> 
+                <div class="card-body reviews">
                     <h5 class="card-title"><a href="#">Apple iPhone 14 Pro Max Review: Unparalleled Performance and Elegance</a> </h5>
-                    <p class="card-text"><a href="#"> The Xiaomi Mi 12 Ultra impresses with its Snapdragon 8 Gen 2+ chipset, 
-                        6.8-inch AMOLED display with a 120Hz refresh rate, and advanced quad-camera system co-engineered with ...</a> </p>
-                        <span>TAOFEEK ISHOLA  &nbsp;&nbsp; JUN 30</span>
+                    <p class="card-text"><a href="#">The Apple iPhone 14 Pro Max continues Apple's legacy with its A16 Bionic chip, Super  ....</a> </p>
+                    <p class="card-text"><small class="text-body-secondary">EDWARD ELRIC  &nbsp;&nbsp; JUN 30</small></p>  
                 </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                <img src="images/Xiaomi.jpg" class="card-img-top img-fluid" alt="Image 4">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="#"> Xiaomi Mi 12 Ultra Review: Cutting-Edge Features at a Competitive Price</a> </h5>
-                    <p class="card-text"><a href="">Apple’s MacBook Pro 16-inch with the M1 Max chip is designed for professionals who need top-tier performance. 
-                        With a stunning Liquid Retina XDR display, impressive...</a>  </p>
-                    <span>SATORU GOJO  &nbsp;&nbsp; JUNE 30</span>
+                <img src="images/Xiaomi.jpg" class="card-img-top" alt="Image 4">
+                <div class="card-body reviews">
+                    <h5 class="card-title"><a href="#">Xiaomi Mi 12 Ultra Review: Cutting-Edge Features at a Competitive Price</a> </h5>
+                    <p class="card-text"><a href=""> The Xiaomi Mi 12 Ultra impresses with its Snapdragon 8 Gen 2+ chipset, 6.8-inch AMOLED display with a 120Hz refresh rate, 
+                        and advanced quad-camera...</a>  </p>
+                    <p class="card-text"><small class="text-body-secondary">BLUE LOCK  &nbsp;&nbsp; JUNE 30</small></p> 
                 </div>
                 </div>
             </div>
        </div>
 
        <!--Comments heading-->
-       <div class="row mt-5">
+       <div class="row mt-5 mx-3">
             <div class="col mt-5">
-                <h4>Comments</h4>
+                <h1 class="text-center">Comments</h1>
             </div>
        </div>
 
        <!--Comments-->
-       <div class="row mt-1">
+       <div class="row mt-1 mx-3" id="comment">
             <dic class="col mt-1">
                 <div class="form-floating">
                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 50px"></textarea>
@@ -325,9 +332,9 @@
     </div>
 
     <!--Footer-->
-     <div class="row mt-5">
-            <div class="col-md-3 mt-5">
-                <h4>About</h4>
+        <div class="row mx-2 mt-5 bg-dark rounded">
+            <div class="col-md-3 mt-5 text-light ">
+                <h4 class="mt-2 mx-4">About</h4>
                 <ul>
                     <li><a href="#">youngTech</a></li>
                     <li><a href="#">Advertise</a></li>
@@ -336,8 +343,8 @@
                     <li><a href="#">youngTech Jobs</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 mt-5">
-                <h4>Legal</h4>
+            <div class="col-md-3 mt-5 text-light">
+                <h4 class="mt-2 mx-4">Legal</h4>
                 <ul>
                     <li><a href="#">Terms of Service</a></li>
                     <li><a href="#">Privacy Policy</a></li>
@@ -347,8 +354,8 @@
                     <li><a href="#">About Our Ads</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 mt-5">
-                <h4>Categories</h4>
+            <div class="col-md-3 mt-5 text-light">
+                <h4 class="mt-2 mx-4">Categories</h4>
                 <ul>
                     <li><a href="#">Smart Phones</a></li>
                     <li><a href="#">Gaming</a></li>
@@ -357,13 +364,20 @@
                     <li><a href="#">Smart Watches</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 mt-5">
-                <h3>Socials</h3>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a><br>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a><br>
-                <a href="#"><i class="fa-brands fa-instagram"></i></i></a><br>
-                <a href="#"><i class="fa-brands fa-youtube"></i></i></a><br>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></i></a><br>
+            <div class="col-md-3 mt-5 text-light">
+                <h3 class="mt-2">Socials</h3>
+                <a href="#"><i class="fa-brands fa-facebook text-white"></i></a><br>
+                <a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a><br>
+                <a href="#"><i class="fa-brands fa-instagram text-white"></i></i></a><br>
+                <a href="#"><i class="fa-brands fa-youtube text-white"></i></i></a><br>
+                <a href="#"><i class="fa-brands fa-linkedin text-white"></i></i></a><br>
+            </div>
+            <hr class="text-light">
+
+            <div class="row text-light text-center">
+                <div class="col-md-12">
+                    <p>&#169; 2021 Copywrite 2024</p>
+                </div>
             </div>
         </div>
 
