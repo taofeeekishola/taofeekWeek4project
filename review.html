@@ -10,12 +10,82 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="container-fluid">
 
          <!--Logo and sign in-->
-        <div class="row">
-            <div class="col-md-6"></div>
-            <div class="col-md-6"></div>
+        <div class="row my-2 ">
+            <div class="col-md-6">
+                <a class="navbar-brand" href="#">youngTech</a>
+            </div>
+            <div class="col-md-6 text-end">
+                 <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sign up
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Craete your account</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                           <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="firstName">
+                                <label for="floatingInput">First Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="lastName">
+                                <label for="floatingPassword">Last Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sign up</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+               <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Login
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Sign into your account</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                           <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Login</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--Navbar-->
@@ -53,12 +123,10 @@
             <div class="col-md-8  mt-5">
                 <div class="row">
                     <div class="col">
-                        <h1>ARTICLE TITLE</h1>
-                        <p>Small talk</p>
-                        <span>the autor name</span><span>Date it was posted</span> 
-                        <a href="#" ><i class="fa-regular fa-comment text-end"></i></a>
+                        <h1>Google Pixel 7 Pro: The Ultimate Android Experience</h1>
+                       <p>JOHN DOE &nbsp;&nbsp; JUL 1  <a href="#" ><i class="fa-regular fa-comment text-center"></i></a></p>
                         <figure class="figure">
-                            <img src="images/samrtwatch.jpg" class="figure-img img-fluid rounded" alt="plaeholder image">
+                            <img src="images/pixel.webp" class="figure-img img-fluid rounded" alt="plaeholder image">
                             <figcaption class="figure-caption">A caption for the above image.</figcaption>
                          </figure>
                     </div>
@@ -70,28 +138,107 @@
         <div class="row justify-content-around">
             <div class="col-7">
                <div class="row">
-                    <div class="col">Short summary</div>
+                    <div class="col">
+                        <p>The Google Pixel 7 Pro offers an exceptional Android experience with its latest Tensor G2 chip, a 6.7-inch OLED display with a 120Hz refresh rate, and a versatile triple-camera system. With advanced computational photography capabilities, 
+                            a clean and intuitive interface, and seamless integration with Google services, it stands out as a top contender in the smartphone market.</p>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col">Design</div>
+                    <div class="col">
+                        <h3>Design</h3>
+                        <p>Google has refined the design of the Pixel 7 Pro to embody modern elegance and functionality. Encased in a sleek aluminum frame with a matte glass back, the phone exudes a premium feel and ergonomic comfort. The front showcases a stunning 6.7-inch OLED display that boasts vibrant colors, HDR support, and a smooth 120Hz refresh rate, offering an immersive viewing experience. 
+                            The device’s minimalist aesthetics are complemented by slim bezels and a discreet hole-punch front camera, maximizing screen-to-body ratio without compromising usability.</p>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col">Performace</div>
+                    <div class="col">
+                        <h3>Performance</h3>
+                        <p>Equipped with the latest Tensor G2 chip and paired with 8GB of RAM, the Pixel 7 Pro delivers exceptional performance across the board. Whether navigating through multiple apps, playing graphics-intensive games, or editing photos and videos, the phone handles tasks effortlessly. 
+                            Google’s optimized Android 13 operating system enhances efficiency and responsiveness, ensuring a seamless user experience without unnecessary bloatware.</p>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col">Battery life</div>
+                    <div class="col">
+                        <h3>Battery life</h3>
+                        <p>The Pixel 7 Pro excels in battery longevity, featuring a robust 5000mAh battery that supports all-day use on a single charge. Adaptive Battery technology intelligently manages power consumption, prioritizing essential tasks to extend battery life further. 
+                            Fast charging capabilities allow users to quickly recharge their device, minimizing downtime and keeping them connected throughout the day.</p>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col">pros and cons</div>
+                    <div class="col">
+                        <h3>Pros & Cons</h3>
+                        <table class="table">
+                            <thead class="table-light">
+                               <tr>
+                                <td><i class="fa-solid fa-circle-check"></i></td>
+                                <td><i class="fa-solid fa-circle-xmark"></i></td>
+                               </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Advanced computational photography for stunning images and videos.</td>
+                                    <td>Limited internal storage options, no expandable storage beyond fixed capacities.</td>
+                                </tr>
+                                <tr>
+                                    <td>Vibrant 6.7-inch OLED display with a smooth 120Hz refresh rate.</td>
+                                    <td>Premium pricing may not fit every budget.</td>
+                                </tr>
+                                <tr>
+                                    <td>Powerful performance with the Tensor G2 chip and 8GB of RAM.</td>
+                                    <td>Design, while sleek, lacks standout innovation compared to some competitors.</td>
+                                </tr>
+                                <tr>
+                                    <td>Intuitive Android 13 interface with seamless Google integration.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col">rating</div>
+                    <div class="col">
+                        <h4>Rating</h4>
+                        <p>The Google Pixel 7 Pro earns a commendable 4.7 out of 5 stars. It excels in photography, display quality, and software optimization, positioning itself as an excellent choice for users seeking a premium Android smartphone experience. Despite minor drawbacks in storage options and design innovation, 
+                        its overall performance and integration with Google’s ecosystem make it a standout contender in the competitive smartphone market.</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-               <div class="row">
-                    <div class="col">hi</div>
-               </div>
+               <div class="row mb-2">
+                    <div class="col-6 ">
+                        <a href="#"><img src="images/microsoft.jpg" alt="" class="img-fluid custom-img"></a>
+                    </div>
+                    <div class="col-6">
+                        <h5><a href="#">Microsoft Discontinues Internet Explorer After 25 Years</a></h5>
+                        <p>Name</p>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-6">
+                        <a href="#"><img src="images/fitbit.jpg" alt="" class="img-fluid custom-img"></a>
+                    </div>
+                    <div class="col-6">
+                        <h5><a href="#">Fitbit Acquired by Google to Enhance Health Tracking Capabilities</a></h5>
+                        <p>Name</p>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-6">
+                        <a href="#"><img src="images/amazon.jpg" alt="" class="img-fluid custom-img"></a>
+                    </div>
+                    <div class="col-6">
+                        <h5><a href="#">Amazon Introduces Echo Frames: Smart Glasses with Alexa</a></h5>
+                        <p>Name</p>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-6 ">
+                        <a href="#"><img src="images/fold.jpg" alt="" class="img-fluid custom-img"></a>
+                    </div>
+                    <div class="col-6">
+                        <h5><a href="#">Samsung Launches Galaxy Fold 2 with Improved Durability</a></h5>
+                        <p>Name</p>
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -104,56 +251,115 @@
 
 
         <!--Related Products-->
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3 ">
             <div class="col">
                 <div class="card">
-                <img src="images/image1.jpg" class="card-img-top" alt="Image 1">
+                <a href="#"><img src="images/s22.webp" class="card-img-top img-fluid" alt="Image 1"></a> 
                 <div class="card-body">
-                    <h5 class="card-title">Card Title 1</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><a href="#">Samsung Galaxy S22 Ultra Review: A Worthy Contender in 2024</a></h5>
+                    <p class="card-text"><a href="">The Samsung Galaxy S22 Ultra stands out with its powerful Exynos 2200 processor, 
+                        vibrant 6.8-inch Dynamic AMOLED display, and...</a> </p>
+                    <p>JOHN DOE &nbsp;&nbsp; JUL 1</p>
+                  
+                    </a>
                 </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                <img src="images/image2.jpg" class="card-img-top" alt="Image 2">
+                <a href="#"><img src="images/Oneplus.webp" class="card-img-top img-fluid" alt="Image 2"></a> 
                 <div class="card-body">
-                    <h5 class="card-title">Card Title 2</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"> <a href="#">OnePlus 10 Pro Review: Speed, Style, and Substance</a> </h5>
+                    <p class="card-text"><a href="#">The OnePlus 10 Pro impresses with its Snapdragon 8 Gen 2 chipset, 
+                        Fluid AMOLED 6.7-inch display with a 120Hz refresh rate, and advanced triple-camera setup. Known for...</a>  </p>
+                    <span>JOHN SMITH  &nbsp;&nbsp; JUL 1</span>
                 </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                <img src="images/image3.jpg" class="card-img-top" alt="Image 3">
+                <a href="#"><img src="images/iphone14.webp" class="card-img-top img-fluid" alt="Image 3"></a> 
                 <div class="card-body">
-                    <h5 class="card-title">Card Title 3</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><a href="#">Apple iPhone 14 Pro Max Review: Unparalleled Performance and Elegance</a> </h5>
+                    <p class="card-text"><a href="#"> The Xiaomi Mi 12 Ultra impresses with its Snapdragon 8 Gen 2+ chipset, 
+                        6.8-inch AMOLED display with a 120Hz refresh rate, and advanced quad-camera system co-engineered with ...</a> </p>
+                        <span>TAOFEEK ISHOLA  &nbsp;&nbsp; JUN 30</span>
                 </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                <img src="images/image4.jpg" class="card-img-top" alt="Image 4">
+                <img src="images/Xiaomi.jpg" class="card-img-top img-fluid" alt="Image 4">
                 <div class="card-body">
-                    <h5 class="card-title">Card Title 4</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><a href="#"> Xiaomi Mi 12 Ultra Review: Cutting-Edge Features at a Competitive Price</a> </h5>
+                    <p class="card-text"><a href="">Apple’s MacBook Pro 16-inch with the M1 Max chip is designed for professionals who need top-tier performance. 
+                        With a stunning Liquid Retina XDR display, impressive...</a>  </p>
+                    <span>SATORU GOJO  &nbsp;&nbsp; JUNE 30</span>
                 </div>
                 </div>
             </div>
        </div>
 
+       <!--Comments heading-->
+       <div class="row mt-5">
+            <div class="col mt-5">
+                <h4>Comments</h4>
+            </div>
+       </div>
+
        <!--Comments-->
-       <div class="row">
-            <dic class="col">
+       <div class="row mt-1">
+            <dic class="col mt-1">
                 <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 50px"></textarea>
                     <label for="floatingTextarea2">Be the first to comment</label>
                 </div>
             </dic>
        </div>
     </div>
 
+    <!--Footer-->
+     <div class="row mt-5">
+            <div class="col-md-3 mt-5">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">youngTech</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Staff</a></li>
+                    <li><a href="#">FQA</a></li>
+                    <li><a href="#">youngTech Jobs</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mt-5">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">RSS Terms of Use</a></li>
+                    <li><a href="#">Privacy Dashboard</a></li>
+                    <li><a href="#">Code of Conduct</a></li>
+                    <li><a href="#">About Our Ads</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mt-5">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Smart Phones</a></li>
+                    <li><a href="#">Gaming</a></li>
+                    <li><a href="#">Electric Vehicles</a></li>
+                    <li><a href="#">AI</a></li>
+                    <li><a href="#">Smart Watches</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mt-5">
+                <h3>Socials</h3>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a><br>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a><br>
+                <a href="#"><i class="fa-brands fa-instagram"></i></i></a><br>
+                <a href="#"><i class="fa-brands fa-youtube"></i></i></a><br>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></i></a><br>
+            </div>
+        </div>
 
 
 

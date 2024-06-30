@@ -1,0 +1,15 @@
+@font-face {
+    font-family: yuji;
+    src: url('fonts/Jost-Regular.woff') format('woff');
+}
+#company{
+    font-family: yuji, sans-serif;
+}
+.c-item{
+    height: 480px;
+}
+.c-item img{
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(0.6);
+}
